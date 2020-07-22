@@ -12,3 +12,7 @@ Online documentation: https://www.fltk.org/documentation.php/doc-1.1/toc.html
 ## Algorithm
 I implemented the triangulation matting algorithm.
 The algorithm takes four RGB images as input (Composite 1, Background 1, Composite 2, Background 2) and produces two images as output---a grayscale Alpha Matte, and an RGB Object image.
+
+## Report
+I wrote a report which invesitgates on the performance of pictures with different conditions.
+This report is under the report folder.
