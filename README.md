@@ -14,5 +14,4 @@ I implemented the triangulation matting algorithm.
 The algorithm takes four RGB images as input (Composite 1, Background 1, Composite 2, Background 2) and produces two images as output---a grayscale Alpha Matte, and an RGB Object image.
 
 ## Report
-I wrote a report which invesitgates on the performance of pictures with different conditions.
-Report: https://cutt.ly/ja2FAqV
+A report which invesitgates on the performance of pictures with different conditions: https://cutt.ly/ja2FAqV
