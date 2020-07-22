@@ -1,6 +1,6 @@
 ## Overview
 
-This is a Computer Vision project which investigates on the image matting. The program should work for a variety of image formats (tif, jpeg, etc)
+This is a Computer Vision project which investigates the image matting. The program should work for a variety of image formats (tif, jpeg, etc)
 
 ## Techiniques
 The technique I implemented is based on a paper by Smith and Blinn that appeared in SIGGRAPH'96.
