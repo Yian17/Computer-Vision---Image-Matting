@@ -15,4 +15,4 @@ The algorithm takes four RGB images as input (Composite 1, Background 1, Composi
 
 ## Report
 I wrote a report which invesitgates on the performance of pictures with different conditions.
-This report is under the report folder.
+Report: https://cutt.ly/ja2FAqV
