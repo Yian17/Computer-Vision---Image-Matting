@@ -16,18 +16,6 @@ import numpy as np
 import scipy.linalg as sp
 import cv2 as cv
 
-# If you wish to import any additional modules
-# or define other utility functions,
-# include them here
-
-#########################################
-## PLACE YOUR CODE BETWEEN THESE LINES ##
-#########################################
-
-#########################################
-
-
-
 
 
 #
@@ -105,14 +93,6 @@ class Matting:
             self._images['colIn'] = self._images['colOut'].copy()
             self._images['alphaIn'] = self._images['alphaOut'].copy()
 
-    # If you wish to create additional methods for the
-    # Matting class, include them here
-
-    #########################################
-    ## PLACE YOUR CODE BETWEEN THESE LINES ##
-    #########################################
-
-    #########################################
 
     # Use OpenCV to read an image from a file and copy its contents to the
     # matting instance's private dictionary object. The key
@@ -126,9 +106,6 @@ class Matting:
         success = False
         msg = 'Placeholder'
 
-        #########################################
-        ## PLACE YOUR CODE BETWEEN THESE LINES ##
-        #########################################
         msg = 'Unsuccessfuly read the image'
         img = cv.imread(fileName)
         if img is not None:
@@ -136,8 +113,6 @@ class Matting:
             success = True
             msg = 'Successfully read the image'
 
-
-        #########################################
         return success, msg
 
     # Use OpenCV to write to a file an image that is contained in the
@@ -151,9 +126,6 @@ class Matting:
         success = False
         msg = 'Placeholder'
 
-        #########################################
-        ## PLACE YOUR CODE BETWEEN THESE LINES ##
-        #########################################
         msg = 'Unsuccessfully write to a file'
         img = self._images[key]
 
@@ -164,9 +136,6 @@ class Matting:
             success = True
 
 
-
-
-        #########################################
         return success, msg
 
     # Method implementing the triangulation matting algorithm. The
@@ -183,10 +152,6 @@ success, errorMessage = triangulationMatting(self)
 
         success = False
         msg = 'Placeholder'
-
-        #########################################
-        ## PLACE YOUR CODE BETWEEN THESE LINES ##
-        #########################################
 
         msg = 'Matting inputs invalid'
 
@@ -238,9 +203,6 @@ success, errorMessage = triangulationMatting(self)
             success = True
             msg = 'successfully done matting'
 
-
-        #########################################
-
         return success, msg
 
 
@@ -255,10 +217,6 @@ success, errorMessage = createComposite(self)
 
         success = False
         msg = 'Placeholder'
-
-        #########################################
-        ## PLACE YOUR CODE BETWEEN THESE LINES ##
-        #########################################
 
         col_in = self._images['colIn']
         back_in = self._images['backIn']
@@ -280,9 +238,5 @@ success, errorMessage = createComposite(self)
 
             msg = "Successfully composite"
             success = True
-
-
-
-        #########################################
 
         return success, msg
